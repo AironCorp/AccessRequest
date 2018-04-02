@@ -23,7 +23,7 @@ My First Security App
     data_end          String       Дата окончания действия пропуска
     description       String       Описание
     photo             String       Фото
-    acces             String       Допуск
+    access             String       Допуск
 
  Электронный Пропуск - обновление
 
@@ -32,7 +32,6 @@ My First Security App
    POST
     _id               String       Индефикатор пропуска
     name              String       ФИО
-    data_update       String       Дата обновления
     data_end          String       Дата окончания действия пропуска
     description       String       Описание
     photo             String       Фото
@@ -51,7 +50,7 @@ My First Security App
     data_end          String       Дата окончания действия пропуска
     description       String       Описание
     photo             String       Фото
-    acces             String       Допуск
+    access            String       Допуск
 
  Электронный Пропуск - удалить
 
@@ -68,4 +67,4 @@ P.S.
 Администраторское приложение будет иметь доступ ко всем функциям и редактировать поле допуска Access
 Access = 0,пропуск не действителен.
 
-data_create и data_update формируются на сервере
+data_create и data_update формируются на сервере 
