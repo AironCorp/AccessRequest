@@ -20,8 +20,7 @@ My First Security App
    
    PUT
     name              String       ФИО
-    data_create       String       Дата создания
-    data_update       String       Дата обновления
+    data_end          String       Дата окончания действия пропуска
     description       String       Описание
     photo             String       Фото
     acces             String       Допуск
@@ -34,9 +33,10 @@ My First Security App
     _id               String       Индефикатор пропуска
     name              String       ФИО
     data_update       String       Дата обновления
+    data_end          String       Дата окончания действия пропуска
     description       String       Описание
     photo             String       Фото
-    acces             String       Допуск
+    access            String       Допуск
 
  Электронный Пропуск - список
 
@@ -46,9 +46,12 @@ My First Security App
    AccesList          Object[]     Список 
     _id               String       Индефикатор пропуска
     name              String       ФИО
+    data_create       String       Дата создания
     data_update       String       Дата обновления
+    data_end          String       Дата окончания действия пропуска
     description       String       Описание
     photo             String       Фото
+    acces             String       Допуск
 
  Электронный Пропуск - удалить
 
@@ -64,3 +67,5 @@ P.S.
 
 Администраторское приложение будет иметь доступ ко всем функциям и редактировать поле допуска Access
 Access = 0,пропуск не действителен.
+
+data_create и data_update формируются на сервере
